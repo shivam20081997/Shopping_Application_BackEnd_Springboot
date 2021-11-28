@@ -1,0 +1,91 @@
+16:15:56.867 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	n.c.c.ProductController:
+	{DELETE [/api/v1/productservice/delete-product/{productCode}]}: deleteProduct(int)
+	{GET [/api/v1/productservice/products]}: getAllProducts()
+	{POST [/api/v1/productservice/update-product]}: updateMovie(Product)
+	{POST [/api/v1/productservice/add]}: saveProduct(Product)
+	{GET [/api/v1/productservice/get-by-id/{productCode}]}: getByID(int)
+16:15:56.884 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+16:15:57.359 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+16:15:57.399 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+16:15:57.432 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+16:15:57.432 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+16:15:57.434 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+16:15:57.435 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+16:15:57.436 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@a565cbd
+16:15:57.436 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6fc29daa
+16:15:57.436 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:15:57.436 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+16:15:57.495 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - GET "/api/v1/productservice/get-by-id/110", parameters={}
+16:15:57.500 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to niit.com.controller.ProductController#getByID(int)
+16:15:57.633 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+16:15:57.634 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [niit.com.model.Product@3a26ec8d]
+16:15:57.659 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 200 OK
+16:15:57.714 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	n.c.c.ProductController:
+	{DELETE [/api/v1/productservice/delete-product/{productCode}]}: deleteProduct(int)
+	{GET [/api/v1/productservice/products]}: getAllProducts()
+	{POST [/api/v1/productservice/update-product]}: updateMovie(Product)
+	{POST [/api/v1/productservice/add]}: saveProduct(Product)
+	{GET [/api/v1/productservice/get-by-id/{productCode}]}: getByID(int)
+16:15:57.716 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+16:15:57.722 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+16:15:57.724 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+16:15:57.725 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+16:15:57.725 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+16:15:57.725 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+16:15:57.725 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+16:15:57.725 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4993febc
+16:15:57.726 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7601bc96
+16:15:57.726 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:15:57.727 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+16:15:57.727 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - DELETE "/api/v1/productservice/delete-by-id/110", parameters={}
+16:15:57.729 [main] WARN  o.s.web.servlet.PageNotFound - No mapping for DELETE /api/v1/productservice/delete-by-id/110
+16:15:57.729 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 404 NOT_FOUND
+16:15:57.742 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	n.c.c.ProductController:
+	{DELETE [/api/v1/productservice/delete-product/{productCode}]}: deleteProduct(int)
+	{GET [/api/v1/productservice/products]}: getAllProducts()
+	{POST [/api/v1/productservice/update-product]}: updateMovie(Product)
+	{POST [/api/v1/productservice/add]}: saveProduct(Product)
+	{GET [/api/v1/productservice/get-by-id/{productCode}]}: getByID(int)
+16:15:57.743 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+16:15:57.747 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+16:15:57.749 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+16:15:57.750 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+16:15:57.751 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+16:15:57.751 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+16:15:57.751 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+16:15:57.752 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@18578491
+16:15:57.753 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3291b443
+16:15:57.753 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:15:57.753 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+16:15:57.754 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - GET "/api/v1/productservice/products", parameters={}
+16:15:57.754 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to niit.com.controller.ProductController#getAllProducts()
+16:15:57.766 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+16:15:57.768 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[]]
+16:15:57.769 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 200 OK
+16:15:57.788 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	n.c.c.ProductController:
+	{DELETE [/api/v1/productservice/delete-product/{productCode}]}: deleteProduct(int)
+	{GET [/api/v1/productservice/products]}: getAllProducts()
+	{POST [/api/v1/productservice/update-product]}: updateMovie(Product)
+	{POST [/api/v1/productservice/add]}: saveProduct(Product)
+	{GET [/api/v1/productservice/get-by-id/{productCode}]}: getByID(int)
+16:15:57.789 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+16:15:57.797 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+16:15:57.800 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+16:15:57.801 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+16:15:57.801 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+16:15:57.801 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+16:15:57.801 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+16:15:57.802 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2da66a44
+16:15:57.802 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@527fc8e
+16:15:57.802 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:15:57.802 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+16:15:57.820 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - POST "/api/v1/productservice/add", parameters={}
+16:15:57.821 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to niit.com.controller.ProductController#saveProduct(Product)
+16:15:57.873 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json" to [niit.com.model.Product@600f5704]
+16:15:57.886 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+16:15:57.887 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [niit.com.model.Product@600f5704]
+16:15:57.887 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 201 CREATED
